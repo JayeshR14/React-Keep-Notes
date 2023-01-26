@@ -39,7 +39,7 @@ const AddNotes = (props) => {
    }
 
    return (<>
-    <form onSubmit={(e)=>e.preventDefault()} className="rounded-[10px] form inline-block mb-3 h-[170px] w-[420px] p-[15px] shadow-[0px_0px_8px_rgba(0,0,0,0.5)] shadow-[#bbbbdd] flex-col">
+    <form onSubmit={(e)=>e.preventDefault()} id="formInfo" className="rounded-[10px] form inline-block mb-3 h-[170px] w-[420px] p-[15px] shadow-[0px_0px_8px_rgba(0,0,0,0.5)] shadow-[#bbbbdd] flex-col">
       <input type="text" value={noteData.title}  placeholder="Title" name="title" className="outline-none h-[30px] focus:border-b-2 border-b-[#254ab9] mb-3 w-full" onChange={InputEvent} style={fieldState ? borderStyle : deafultStyle }/>
       <div className="relative">
       <textarea name="content" value={noteData.content} className="resize-none h-[100px] w-full outline-none" placeholder="Description" onChange={InputEvent} />
