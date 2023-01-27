@@ -10,7 +10,7 @@ const Text = (props) => {
 
   return (
     <>
-    <input type="text" onClick={showNotes} placeholder="Add Notes" id="text" className="outline-none pl-4 shadow-[0px_0px_5px_rgba(4,59,92,0.8)] h-[45px] w-[450px] focus:border-b-2 border-b-[#254ab9] mb-3" />
+    <input type="text" onClick={showNotes} placeholder="Start making notes..." id="text" className="border-[#9bc3eb] outline-none bg-transparent border-[2px] rounded-[6px] pl-4 w-[450px] h-[46px]" />
     </>
   )
 }
