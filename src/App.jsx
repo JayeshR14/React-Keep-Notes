@@ -13,7 +13,7 @@ const App = () => {
      return [...prev, noteData]}
     )
   }
-
+//removeItems
   const removeItems = (id) => {
     setNotes(()=>{
       return notes.filter((ele,index)=>{
